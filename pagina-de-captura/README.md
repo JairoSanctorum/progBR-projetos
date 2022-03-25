@@ -1,0 +1,1 @@
+Este projete foi ministrado pelo programador Igor de Oliveira no curso Programador BR. Foi usado HTML e CSS, a ideia foi criar uma página de captura em que desenvolvemos algumas habilidades aprendidas no módulo do curso.  

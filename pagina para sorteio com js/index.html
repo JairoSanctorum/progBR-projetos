@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+
+    <script>
+        //primeiro modo só com números
+        function sortear() {
+            let np = 100;  // np = número de pessoas
+            let ns = Math.round(Math.random() * np);  //ns = número sorteado
+            document.getElementById("d").innerHTML = ns
+        }
+
+        //segundo modo com arrays
+        /*
+        let pessoas = ["Igor", "José", "Marcos", "Pamela", "Joana"]
+
+        function sortear() {
+            let np = pessoas.length;
+            let ns = Math.floor(Math.random() * np);
+            document.getElementById("d").innerHTML = pessoas[ns];
+        }
+        */
+    </script>
+
+</head>
+<body>
+
+    <h1>Boa sorte!</h1>
+    <h1 id="d"></h1>
+    <button onclick="sortear()"> Sortear </button>
+    
+</body>
+</html>
