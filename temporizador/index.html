@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html id="01">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temporizador</title>
+
+    <script>
+
+        function mudarCor(){
+            let h = document.getElementsByTagName("h1")[0]
+            h.style.color = "blue";
+        }
+
+        function mudarTexto() {
+
+            let h = document.getElementsByTagName("h1")[0]
+            h.innerHTML = "Novo título";
+
+            setTimeout( mudarCor , 1000)
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <h1>Título</h1>
+    <input onclick="mudarTexto()" type="submit" value="Mudar">
+    
+</body>
+</html>
